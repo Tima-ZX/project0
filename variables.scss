@@ -1,0 +1,49 @@
+
+
+$color : rgb(3, 2, 2);
+$font : Helvetica, sans-serif;
+body {
+    background-color:  rgba(191, 207, 236, 0.829)   
+
+}
+/* Scss Variables  */
+h2,h3{ 
+    font: $font;
+    color : $color ;
+
+}
+
+/* Scss Nesting  */
+
+nav{
+    p{
+        margin: 12px;
+        padding: 12px;
+
+        a{
+            display: block;
+            padding: 6px 12px;
+            text-decoration: none;
+        }
+    }
+}
+
+ 
+/* Scss Inheritance  */
+
+
+%message-shared {
+    border: 4px solid rgb(30, 102, 124);
+    padding: 12px;
+    color: rgb(3, 2, 2);
+  }
+
+  
+  
+  
+  div {
+   @extend %message-shared;
+   background-color: rgb(206, 222, 235)   
+
+}
+  

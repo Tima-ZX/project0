@@ -1,0 +1,33 @@
+body {
+  background-color: rgba(191, 207, 236, 0.829);
+}
+
+/* Scss Variables  */
+h2, h3 {
+  font: Helvetica, sans-serif;
+  color: #030202;
+}
+
+/* Scss Nesting  */
+nav p {
+  margin: 12px;
+  padding: 12px;
+}
+nav p a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/* Scss Inheritance  */
+div {
+  border: 4px solid #1e667c;
+  padding: 12px;
+  color: #030202;
+}
+
+div {
+  background-color: #cedeeb;
+}
+
+/*# sourceMappingURL=variables.css.map */
